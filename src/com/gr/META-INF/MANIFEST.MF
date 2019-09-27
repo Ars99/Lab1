@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.commons.codec;version="1.8",org.apache.comm
+ ons.codec.net;uses:="org.apache.commons.codec,org.apache.commons.code
+ c.binary";version="1.8",org.apache.commons.codec.language.bm;uses:="o
+ rg.apache.commons.codec";version="1.8",org.apache.commons.codec.langu
+ age;uses:="org.apache.commons.codec";version="1.8",org.apache.commons
+ .codec.digest;uses:="org.apache.commons.codec,org.apache.commons.code
+ c.binary";version="1.8",org.apache.commons.codec.binary;uses:="org.ap
+ ache.commons.codec";version="1.8"
+Embed-Directory: lib
+Implementation-Title: Apache Commons Codec (for Apache Directory Studi
+ o)
+Bundle-ClassPath: .,lib/commons-codec-1.8.jar
+Built-By: pajbam
+Tool: Bnd-1.50.0
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache.directory.studio
+Specification-Title: Apache Commons Codec (for Apache Directory Studio
+ )
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.commons.codec
+Embedded-Artifacts: lib/commons-codec-1.8.jar;g="commons-codec";a="com
+ mons-codec";v="1.8"
+Implementation-Version: 1.8
+Specification-Vendor: The Apache Software Foundation
+Bundle-Name: Apache Commons Codec (for Apache Directory Studio)
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Apache Software Foundation
+Build-Jdk: 1.7.0_25
+Bundle-Version: 1.8.0
+Bnd-LastModified: 1372418502781
+Bundle-ManifestVersion: 2
+Embed-StripGroup: true
+Embed-Dependency: *;scope=compile|runtime
+Bundle-DocURL: http://www.apache.org/
+Specification-Version: 1.8
+Archiver-Version: Plexus Archiver
+
